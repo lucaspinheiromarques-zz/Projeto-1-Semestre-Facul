@@ -169,6 +169,81 @@ nav ul li a:hover {
     height: 450px;
 }
 
+#planos {
+    background-color: #00a7fb0c;
+    padding-top: 5px;
+    margin-top: 80px;
+}
+
+#planos article {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fundo-plano {
+    width: 340px;
+    padding-bottom: 30px;
+    background-color: #00A6FB;;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo-plano:last-child {
+    margin-right: 0;
+}
+
+.fundo-plano h3 {
+    color: #fff;
+    font-family: nunito;
+    margin-top: 20px;
+}
+
+.fundo-plano h3::after {
+    display: block;
+    height: 1px;
+    width: 150px;
+    background-color: #fff;
+    content: "";
+    margin: 10px auto;
+}
+
+.fundo-plano figure img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.div-txt-planos {
+    width: 80%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.txt-planos {
+    color: #fff;
+    text-align: center;
+    font-family: nunito;
+}
+
+.fundo-plano a {
+    text-decoration: none;
+    color: #3FA9F5;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 200px;
+    padding: 10px 35px 10px 35px;
+    margin-top: 50px;
+}
+
+.fundo-plano a:hover{
+    color:#3FA9F5;
+}
+
 @media screen and (max-width: 767px) {
     .container p {
         text-align: center;
