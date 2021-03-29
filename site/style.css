@@ -1,0 +1,64 @@
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+    
+.container h2 {
+    font-size: 35px;
+}
+
+.container p {
+    text-align: justify;
+    font-size: 19px;
+}
+
+.container a {
+    background-color: #3FA9F5;
+    border: 0;
+    letter-spacing: 1px;
+    width: 150px;
+}
+
+.container a:hover {
+    background-color: #fff;
+    color: #3FA9F5
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+    .container p {
+        text-align: center;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
