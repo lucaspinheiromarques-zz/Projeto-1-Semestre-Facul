@@ -131,6 +131,44 @@ nav ul li a:hover {
     opacity: 0.7;
 }
 
+.titulos {
+    text-align: center;
+    margin-top: 40px;
+    font-family: Nunito;
+    font-size: 2.5rem;
+}
+
+.titulos::after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: #3FA9F5;
+    content: "";
+    margin: 20px auto;
+}
+
+.div-txt-sections {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.txt-sections {
+    font-family: Nunito;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#sobre figure {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#sobre figure img {
+    width: 600px;
+    height: 450px;
+}
+
 @media screen and (max-width: 767px) {
     .container p {
         text-align: center;
