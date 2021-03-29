@@ -173,6 +173,7 @@ nav ul li a:hover {
     background-color: #00a7fb0c;
     padding-top: 5px;
     margin-top: 80px;
+    padding-bottom: 60px;
 }
 
 #planos article {
@@ -221,7 +222,7 @@ nav ul li a:hover {
 .div-txt-planos {
     width: 80%;
     height: 100px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .txt-planos {
@@ -257,5 +258,26 @@ nav ul li a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    #planos article {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fundo-plano {
+        margin-right: 0;
+        margin-top: 20px;
+        width: 450px;
+    }
+
+    .txt-planos {
+        font-size: 18px;
+    }
+
+    .fundo-plano a {
+        padding-left: 80px;
+        padding-right: 80px;
     }
 }
