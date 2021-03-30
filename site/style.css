@@ -254,6 +254,16 @@ nav ul li a:hover {
     color:#3FA9F5;
 }
 
+@media screen and (max-width: 679px){
+    #sobre figure img {
+        max-width: 1080px;   
+        width: 90%;
+        max-height: 350px;      
+        background-size:100%;
+        background-repeat: no-repeat;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .container p {
         text-align: center;
@@ -267,6 +277,12 @@ nav ul li a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .div-txt-sections {
+        width: 90%;
     }
 }
 
