@@ -255,7 +255,7 @@ nav ul li a:hover {
 }
 
 #opinioes {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 #div-opinioes {
@@ -308,6 +308,73 @@ nav ul li a:hover {
     color:#00A6FB;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+}
+
+#politicas {
+    text-align: justify;
+}
+
+#politicas a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#politicas a:hover {
+    color: #00A6FB
+}
+
+#adress {
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#adress p {
+    color: #fff;
+}
+
+#adress p:last-child {
+    margin-top: 20px;
+}
+
+#adress p:first-child {
+    margin-top: 20px;
+}
+
+#adress a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#adress a:hover {
+    color: #3FA9F5
+}
+
+#social a {
+    text-decoration: none;
+}
+
+#social a img {
+    padding: 10px;
+}
+
+#social a img:hover{
+    background-color: #3FA9F5;
+}
+
+#facebook {
+    margin-left: -6px;
 }
 
 @media screen and (max-width: 520px){
