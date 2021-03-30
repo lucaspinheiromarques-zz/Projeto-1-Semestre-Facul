@@ -39,6 +39,15 @@ nav ul li a {
     font-family: Montserrat;
 }
 
+@media screen and (max-width: 992px){
+    nav ul li {
+        display: none;
+    }
+    nav a img {
+        margin-top: -18px;
+    }
+}
+
 nav ul li:nth-child(1) a {
     background-color: #3FA9F5;
     color: #fff;
