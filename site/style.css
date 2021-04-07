@@ -442,6 +442,12 @@
     }
 }
 
+@media screen and (max-width: 310px){
+    .opiniao-cli {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1092px){
     #div-opinioes {
         flex-direction: column;
@@ -525,6 +531,7 @@ footer {
     footer {
         flex-direction: column;
         padding-left: 20px;
+        padding-bottom: 20px;
     }
 
     #politicas {
