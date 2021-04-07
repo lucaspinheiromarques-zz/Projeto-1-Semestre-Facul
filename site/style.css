@@ -219,38 +219,43 @@
     background-color: #00a7fb0c;
     padding-top: 5px;
     margin-top: 80px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 #planos article {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
 }
 
-.fundo-plano {
-    width: 340px;
-    padding-bottom: 30px;
-    background-color: #00A6FB;;
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
-    margin-right: 80px;
+.cards {
+    background-color: #3FA9F5;
+    border-radius: 10px;
+    width: 300px;
+    padding-bottom: 40px;
+    margin-right: 20px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.fundo-plano:last-child {
-    margin-right: 0;
+.cards:last-child {
+    margin-right: 0px;
 }
 
-.fundo-plano h3 {
-    color: #fff;
+.card-title {
+    text-align: center;
     font-family: nunito;
+    color: #fff;
     margin-top: 20px;
 }
 
-.fundo-plano h3::after {
+.card-title h3 {
+    font-size: 1.5rem;
+}
+
+.card-title h3::after {
     display: block;
     height: 1px;
     width: 150px;
@@ -259,25 +264,34 @@
     margin: 10px auto;
 }
 
-.fundo-plano figure img {
-    width: 100px;
-    height: 100px;
-    margin-top: 5px;
-}
-
-.div-txt-planos {
-    width: 80%;
-    height: 100px;
+.card-image {
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
 }
 
-.txt-planos {
-    color: #fff;
-    text-align: center;
-    font-family: nunito;
+.card-image img {
+    height: auto;
+    width: 30%;
 }
 
-.fundo-plano a {
+.card-desc {
+    text-align: center;
+    font-family: nunito;
+    width: 95%;
+    height: 125px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.card-btn {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-btn a {
     text-decoration: none;
     color: #3FA9F5;
     font-weight: bold;
@@ -287,8 +301,8 @@
     margin-top: 50px;
 }
 
-.fundo-plano a:hover{
-    color:#3FA9F5;
+.card-btn a:hover {
+    color: #3FA9F5;
 }
 
 #opinioes {
@@ -472,23 +486,25 @@ footer {
     }
 }
 
-@media screen and (max-width: 1240px){
+@media screen and (max-width: 699px) {
     #planos article {
         flex-direction: column;
         align-items: center;
     }
-    .fundo-plano {
+
+    .cards {
         margin-right: 0;
-        margin-top: 35px;
-        width: 450px;
     }
 
-    .txt-planos {
-        font-size: 18px;
-    }
-
-    .fundo-plano a {
-        padding-left: 80px;
-        padding-right: 80px;
+    .cards:last-child {
+        margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 325px){
+    .cards {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+ 
