@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* Menu */
+
 .topnav {
     background-color: #fff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.192);
@@ -128,6 +130,8 @@
     }
   }
 
+/* Carousel */
+
 .carousel-item {
     height: 35rem;
     background: #000;
@@ -177,6 +181,9 @@
     opacity: 0.7;
 }
 
+/* Main, titulos e sections */
+/* Sobre */
+
 .titulos {
     text-align: center;
     margin-top: 40px;
@@ -214,6 +221,40 @@
     width: 600px;
     height: 450px;
 }
+
+@media screen and (max-width: 679px){
+    #sobre figure img {
+        max-width: 1080px;   
+        width: 90%;
+        max-height: 350px;      
+        background-size:100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container p {
+        text-align: center;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .div-txt-sections {
+        width: 90%;
+    }
+}
+
+/* Planos */
 
 #planos {
     background-color: #00a7fb0c;
@@ -305,6 +346,30 @@
     color: #3FA9F5;
 }
 
+@media screen and (max-width: 699px) {
+    #planos article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        margin-right: 0;
+    }
+
+    .cards:last-child {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .cards {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+/* Opiniões */
+
 #opinioes {
     margin-top: 60px;
 }
@@ -360,6 +425,34 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 520px){
+    .opiniao-cli {
+        width: 300px;
+        height: 500px;
+    }
+
+    .div-span {
+        margin-top: 100px;
+    }
+
+    .div-txt-opiniao p {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 1092px){
+    #div-opinioes {
+        flex-direction: column;
+    }
+    .opiniao-cli {
+        margin-right: 0;
+        margin-top: 40px;
+    }
+}
+
+/* Footer */
 
 footer {
     margin-top: 100px;
@@ -426,85 +519,5 @@ footer {
 
 #facebook {
     margin-left: -6px;
-}
-
-@media screen and (max-width: 520px){
-    .opiniao-cli {
-        width: 300px;
-        height: 500px;
-    }
-
-    .div-span {
-        margin-top: 100px;
-    }
-
-    .div-txt-opiniao p {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
-
-@media screen and (max-width: 679px){
-    #sobre figure img {
-        max-width: 1080px;   
-        width: 90%;
-        max-height: 350px;      
-        background-size:100%;
-        background-repeat: no-repeat;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .container p {
-        text-align: center;
-    }
-
-    .container h2 {
-        text-align: center;
-    }
-
-    .d-flex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 1092px){
-    #div-opinioes {
-        flex-direction: column;
-    }
-    .opiniao-cli {
-        margin-right: 0;
-        margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 1120px){
-    .div-txt-sections {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 699px) {
-    #planos article {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cards {
-        margin-right: 0;
-    }
-
-    .cards:last-child {
-        margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 325px){
-    .cards {
-        width: 100%;
-        border-radius: 0;
-    }
 }
  
