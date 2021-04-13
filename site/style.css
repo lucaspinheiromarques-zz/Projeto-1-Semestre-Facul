@@ -582,6 +582,8 @@ footer {
     background-color: #00A6FB;
 }
 
+/*Parte de Planos*/
+
 #main-planos {
     display: flex;
     flex-direction: column;
