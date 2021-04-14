@@ -227,9 +227,7 @@
     #sobre figure img {
         max-width: 1080px;   
         width: 90%;
-        max-height: 350px;      
-        background-size:100%;
-        background-repeat: no-repeat;
+        height: auto;    
     }
 }
 
