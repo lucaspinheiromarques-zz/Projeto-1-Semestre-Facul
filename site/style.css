@@ -587,6 +587,7 @@ footer {
 
 #banner-planos h1 {
     text-align: center;
+    letter-spacing: 4px;
     color: #fff;
     padding-top: 20px;
     font-size: 2rem;
@@ -613,13 +614,6 @@ footer {
     width: 650px;
     height: 650px;
     margin-top: 20px;
-}
-
-@media screen and (max-width: 839px){
-    #banner-planos figure img {
-        /* width: 100%;
-        height: 100%; */
-    }
 }
 
 /*Parte de Planos*/
