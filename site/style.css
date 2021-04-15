@@ -610,7 +610,7 @@ footer {
 
 #banner-planos figure img {
     width: 650px;
-    height: 650px;
+    height: auto;
     margin-top: 20px;
 }
 
