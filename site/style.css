@@ -614,6 +614,18 @@ footer {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 490px){
+    #banner-planos {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 664px){
+    #banner-planos figure img {
+        width: 90%;
+    }
+}
+
 /*Parte de Planos*/
 
 #main-planos {
@@ -718,6 +730,24 @@ footer {
     border: 1px solid #3FA9F5;
 }
 
+@media screen and (max-width: 664px){
+    #main-planos {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 455px){
+    #main-planos {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #main-planos {
+        margin-top: 100px;
+    }
+}
+
 @media screen and (max-width: 1149px){
     #sessao-planos {
         flex-direction: column;
@@ -735,6 +765,12 @@ footer {
     
     #main-texts p {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .divs-planos {
+        width: 100%;
     }
 }
 
