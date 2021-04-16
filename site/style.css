@@ -796,7 +796,7 @@ footer {
 
 .beneficios {
     width: 275px;
-    background-color: #4d4d4d1c;
+    background-color: rgba(0, 0, 0, 0.068);
     border-radius: 20px;
     margin-right: 50px;
     display: flex;
@@ -925,4 +925,157 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+/*Beneficios Empresa*/
+
+#sessao-beneficios-empresa {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #00a7fb0c;
+    margin-top: 80px;
+}
+
+.caixa-beneficios-empresa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.beneficios-empresa {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.068);
+    border-radius: 25px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.beneficios-empresa:last-child{
+    margin-right: 0;
+}
+
+.figure-beneficio-empresa {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure-beneficio-empresa-01 {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure-beneficio-empresa-02 {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure-beneficio-empresa:hover {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.figure-beneficio-empresa-01:hover {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.figure-beneficio-empresa-02:hover {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.figure-beneficio-empresa:hover::after {
+    display: block;
+    content: "Controle de Plano";
+    margin-left: 20px;
+    font-family: nunito;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.figure-beneficio-empresa-01:hover::after {
+    display: block;
+    content: "Proteção Garantida";
+    margin-left: 20px;
+    font-family: nunito;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.figure-beneficio-empresa-02:hover::after {
+    display: block;
+    content: "Upload de Qualidade";
+    margin-left: 20px;
+    font-family: nunito;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.figure-beneficio-empresa img {
+    width: 40px;
+    height: 40px;
+}
+
+.figure-beneficio-empresa-01 img {
+    width: 40px;
+    height: 40px;
+}
+
+.figure-beneficio-empresa-02 img {
+    width: 40px;
+    height: 40px;
+}
+
+.inf-beneficios-empresa {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inf-beneficios-empresa h3 {
+    font-size: 1.3rem;
+}
+
+.inf-beneficios-empresa p {
+    color: #4b4b4b;
+}
+
+@media screen and (max-width: 1117px){
+    .caixa-beneficios-empresa {
+        flex-direction: column;
+    }
+
+    .beneficios-empresa {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 368px){
+    .beneficios-empresa {
+        width: 100%;
+        height: auto;
+    }
 }
