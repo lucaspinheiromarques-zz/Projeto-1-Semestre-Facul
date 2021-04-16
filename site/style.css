@@ -636,12 +636,12 @@ footer {
     margin-top: 300px;
 }
 
-#main-texts h1 {
+.main-texts h1 {
     text-align: left;
     font-size: 2rem;
 }
 
-#main-texts p {
+.main-texts p {
     color: #808080;
     margin-top: -5px;
     font-size: 1rem;
@@ -749,12 +749,16 @@ footer {
         margin-top: 30px;
     }
 
-    #main-texts h1 {
+    .main-texts h1 {
         text-align: center;
     }
     
-    #main-texts p {
+    .main-texts p {
         text-align: center;
+    }
+
+    #div-planos-empresa {
+        flex-direction: column  ;
     }
 }
 
@@ -908,4 +912,17 @@ footer {
     .beneficios {
         width: 100%;
     }
+}
+
+/*Planos Empresas*/
+
+#planos-empresas {
+    margin-top: 60px;
+}
+
+#div-planos-empresa {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
