@@ -792,7 +792,6 @@ footer {
 
 .beneficios {
     width: 275px;
-    height: 275px;
     background-color: #4d4d4d1c;
     border-radius: 20px;
     margin-right: 50px;
@@ -830,6 +829,7 @@ footer {
 .inf-beneficios h3 {
     font-size: 1.2rem;
     font-family: nunito;
+    text-align: center;
 }
 
 .inf-beneficios p {
@@ -839,7 +839,7 @@ footer {
 }
 
 #autoatendimento {
-    margin-top: 200px;
+    margin-top: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
