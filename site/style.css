@@ -1298,13 +1298,11 @@ footer {
     margin: auto 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .status-internet img {
     width: 50px;
     height: 50px;
-    margin-left: 50px;
 }
 
 .status-internet span {
@@ -1316,12 +1314,11 @@ footer {
 }
 
 .status-internet div {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background: #9EE692;
     border-radius: 200px;
     margin-left: auto;
-    margin-right: 50px;
 }
 
 /* Fim Conteúdo */
