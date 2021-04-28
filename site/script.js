@@ -6,3 +6,12 @@ function menuAbrir() {
       x.className = "topnav";
     }
 }
+
+function menuAbrir1() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "menu-cliente") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu-cliente";
+  }
+}

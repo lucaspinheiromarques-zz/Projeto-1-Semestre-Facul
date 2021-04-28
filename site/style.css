@@ -1079,3 +1079,251 @@ footer {
         height: auto;
     }
 }
+
+/* ÁREA CLIENTE */
+
+/* Menu */
+.menu-cliente {
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.192);
+    border-radius: 25px;
+    width: 90%;
+    overflow: hidden;
+    margin: 20px auto 20px;
+}
+
+.menu-cliente a {
+    float: left;
+    font-family: montserrat;
+    display: block;
+    color: #808080;
+    text-align: center;
+    margin-top: 35px;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.menu-cliente a:hover {
+    color: #3FA9F5;
+}
+
+.menu-cliente a:first-child {
+    margin: 0;
+}
+
+.menu-cliente a:nth-child(5) {
+    color: #3FA9F5;
+    float: right;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.menu-cliente a:nth-child(5) img {
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-cliente .icon {
+    display: none;
+}
+
+.menu-cliente .icon img {
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 669px){
+    .menu-cliente a:not(:first-child) {
+        display: none;
+    }
+
+    .menu-cliente a.icon {
+      float: right;
+      display: block;
+    }
+
+    .menu-cliente.responsive {
+        position: relative;
+    }
+
+    .menu-cliente.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .menu-cliente.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .menu-cliente a:nth-child(5){
+        margin-bottom: 20px;
+    }
+}
+/* Fim Menu */
+
+/* Conteúdo */
+
+#main-cliente {
+    margin-top: 100px;
+}
+
+.organizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-cliente {
+    width: 90%;
+    margin-bottom: 150px;
+}
+
+.conteudo-cliente h2 {
+    color: #808080;
+    font-family: Nunito;
+    letter-spacing: 1px;
+}
+
+.org-divs {
+    display: flex;
+}
+
+.div-esquerda {
+    width: 60%;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    margin-right: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-direita {
+    width: 40%;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    margin-left: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Plano */
+
+.div-esquerda h3 {
+    font-family: Nunito;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.pacote-contratado {
+    margin-top: 40px;
+}
+
+.pacote-contratado span {
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.mudar-plano {
+    margin-top: auto;
+}
+
+.mudar-plano a {
+    background: #3FA9F5;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    font-family: Nunito;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.mudar-plano a:hover {
+    border: 1px solid #3FA9F5;
+    background: #fff;
+    color: #3FA9F5;
+}
+
+.div-direita h3 {
+    text-align: center;
+    font-family: Nunito;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.opcoes-plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.opcoes-plano div {
+    margin-right: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-plano div:last-child {
+    margin-right: 0;
+}
+
+.opcoes-plano div a {
+    text-align: center;
+    font-family: Nunito;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+
+/* Técnico */
+
+.status-internet {
+    margin: auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-internet img {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.status-internet span {
+    margin-left: 20px;
+    font-family: Nunito;
+    color: #808080;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.status-internet div {
+    width: 20px;
+    height: 20px;
+    background: #9EE692;
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+/* Fim Conteúdo */
+
+/* FIM ÁREA CLIENTE */
