@@ -1292,6 +1292,53 @@ footer {
     margin-top: 10px;
 }
 
+/* Fatura */
+
+.inf-fatura {
+    width: 100%;
+}
+
+.inf-fatura h3 {
+    color: #FF9C27;
+    font-size: 40px;
+}
+
+.inf-fatura span {
+    color: #808080;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: Nunito;
+    margin-top: -50px;
+    float: right;
+}
+
+.inf-fatura p {
+    color: #808080;
+    letter-spacing: 1px;
+    font-family: nunito;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.opcoes-fatura {
+    margin-top: auto;
+}
+
+.opcao-fatura:last-child {
+    margin-top: 30px;
+}
+
+.opcao-fatura a {
+    text-decoration: underline;
+    color: #000;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.opcao-fatura a:hover {
+    color: #000;
+}
+
 /* Técnico */
 
 .status-internet {
@@ -1319,6 +1366,96 @@ footer {
     background: #9EE692;
     border-radius: 200px;
     margin-left: auto;
+}
+
+.div-esquerda form {
+    margin-top: 40px;
+    height: 100%;
+}
+
+.div-esquerda form div label {
+    font-family: nunito;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.div-esquerda form div input {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #3FA9F5;
+    border-radius: 5px;
+}
+
+.div-btn-submit {
+    margin-top: 110px;
+}
+
+.div-btn-submit input {
+    background: #3FA9F5;
+    padding: 5px 20px 5px 20px;
+    border-radius: 100%;
+    font-family: Nunito;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.div-btn-submit input:hover{
+    background: #fff;
+    border: 1px solid #3FA9F5;
+    color: #3FA9F5;
+}
+
+@media screen and (max-width: 969px){
+    .org-divs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-esquerda {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+
+    .div-direita {
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+
+    .conteudo-cliente h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .inf-fatura span {
+        float: left;
+        margin-top: 0;
+    }
+
+    .inf-fatura p {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 383px){
+    .opcoes-plano {
+        flex-direction: column;
+    }
+
+    .opcoes-plano div {
+        margin-right: 0;
+    }
+
+    .opcoes-plano div:last-child {
+        margin-top: 30px;
+    }
+
+    .div-direita{
+        height: auto;
+    }
 }
 
 /* Fim Conteúdo */
